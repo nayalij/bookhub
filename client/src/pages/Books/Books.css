@@ -1,0 +1,71 @@
+.add-newBook {
+  padding: 30px;
+}
+
+.add-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  background-color: #1890ff;
+  border: 1px solid #1890ff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-flex; 
+  align-items: center; 
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #1261a0;
+  border-color: #1261a0;
+}
+
+.ant-table {
+  margin-top: 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 12px;
+}
+
+.ant-table-tbody > tr > td:last-child {
+  text-align: center;
+}
+
+.ri-edit-fill,
+.ri-delete-bin-5-line {
+  cursor: pointer;
+  font-size: 18px;
+  color: #1890ff;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.ri-delete-bin-5-line {
+  color: #ff4d4f;
+}
+
+.ri-edit-fill:hover,
+.ri-delete-bin-5-line:hover {
+  color: #1261a0;
+}

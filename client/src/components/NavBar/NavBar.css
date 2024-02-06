@@ -1,0 +1,120 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo {
+  display: flex;
+  width: 80px;
+  height: 150px;
+  margin-left: 30px;
+}
+.nav-logo p {
+  display: flex;
+  align-items: center;
+  color: #171717;
+  font-size: 30px;
+  font-weight: 600;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+  gap: 50px;
+  color: #626262;
+  font-size: 25px;
+  font-weight: 500;
+}
+.nav-menu li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+.nav-menu hr {
+  border: 10px;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background: #eb0c0c;
+}
+.nav-login-cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.nav-login-cart button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #171717;
+  border-radius: 30px;
+  background-color: #171717;
+  color: #ffffff;
+}
+.login-link {
+  text-decoration: none !important;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #515557;
+  border-color: #515557;
+  color: #ffffff;
+}
+.nav-login-cart img {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-logo {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-menu li {
+    flex-direction: row;
+  }
+
+  .nav-login-cart {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-login-cart button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .nav-login-cart img {
+    margin-right: 0;
+  }
+}
