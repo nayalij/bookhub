@@ -45,10 +45,10 @@ export const BookForm = ({
   open,
   setOpen,
   reloadData,
-  setFormType,
+
   formType,
   selectedBook,
-  setSelectedBook,
+ 
 }) => {
   // Handler for closing the modal
   const handleCancel = () => {
